@@ -93,7 +93,7 @@ const Home = () => {
                                     <td>{user.phoneNumber}</td>
                                     <td>{user.designation}</td>
 
-                                    <td>
+                                    <td className="d-flex">
                                         {/* <Link to={}> */}
                                         <button onClick={() => {
                                             naviagte(`/users`, {
